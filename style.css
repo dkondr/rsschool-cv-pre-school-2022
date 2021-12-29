@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px; 
+    font-style: normal; 
+    font-weight: 500;
+    font-kerning: auto;
+    background-size: 100%;
+    background: #fff;
+  }
+
+  .page-header{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    width: 700px;  
+  }
+
+  .page-header-contacts{
+    margin: 0 auto;
+    display: flex;
+    align-content: space-around;
+    width: 700px; 
+  }
+  
+  .contacts{
+    margin: 0 5%;
+    text-align: center;
+  }
+
+  .header-contacts-icon{
+    width: 20px;
+    height: auto;
+  }
+
+  .page-main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+ }
+
+  .bio {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .bio + .bio {
+    margin-left: 1%;
+  }
+
+  .list{
+    list-style-type: none;
+  }
+
+  .text-justify{
+    text-align: justify;
+  }
+
+  h2, h4{
+     margin: 0 auto;
+  }
+
+  .avatar{
+      padding-top: 5px;
+      border-radius: 50%;
+  }
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  
+  .git{
+    width: 60px;
+    height: auto;
+  }
+
+  .rss{
+    width: 150px;
+    height: auto;
+    float: left;
+  }
